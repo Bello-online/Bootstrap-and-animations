@@ -1,0 +1,117 @@
+
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Gamer's Guide</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--CSS Only-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+    crossorigin="anonymous">
+</script>
+
+<link  href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <p>Student  Name: <span class=name>Bello Olaseni</span></p>
+        <p>Student No: 000875181</p>
+    </header>
+    <nav class="navbar navbar-inverse"> 
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="btn navbar-btn navbar-brand" href="#index.html">Gamer's Guide</a>
+            </div>
+            <ul class="nav">
+                <li class=" nav-item nav-link  btn btn-dark navbar-btn"><a href="#index.html">Home</a></li>
+                <li class="nav-item nav-link btn btn-dark navbar-btn"><a href="#games">Games</a></li>
+                <li  class=" nav-item nav-link btn btn-dark navbar-btn"><a href="#contact">Contact-us</a></li>
+                <li  class="nav-item nav-link btn btn-dark navbar-btn"><a href="#ref">References</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <p class="text-center"> Gamers guide is a website that shows you the best games in the market right now</p>
+        <p class="text-center">Get the best gaming information on Games that are popular right now.</p>
+        
+        <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button id="games" type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/gamer1.jpeg" class="d-block w-100 h-30" alt="Fortnite Battle Royale">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fortnite Battle Royale</h5>
+                        <p>Fortnite is a survival game where 100 players fight against each other in player versus player combat to be the last one standing.
+                            It is a fast-paced, action-packed game, not unlike The Hunger Games, where strategic thinking is a must in order to survive. 
+                            There are an estimated 125 million players on Fortnite.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/gamer2.webp" class="d-block w-100 h-30" alt="Apex Legends">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Apex Legends</h5>
+                        <p>Apex Legends is an online multiplayer battle royale game featuring squads of three players using pre-made characters with distinctive abilities, called "Legends", similar to those of hero shooters. 
+                            Alternate modes have been introduced allowing for single and for two-player squads since the game's release.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/gamer3.jpeg" class="d-block w-100 h-30" alt="Rocket League">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rocket League</h5>
+                        <p>Rocket League is a fantastical sport-based video game, developed by Psyonix (it's “soccer with cars”). 
+                            It features a competitive game mode based on teamwork and outmaneuvering opponents. 
+                            Players work with their team to advance the ball down the field, and score goals in their opponents' net..</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+            
+            
+            <h5 id="ref">References</h5>
+            <ul>
+                <li>W3schools: <a href="https://www.w3schools.com/bootstrap5/index.php">W3schools.com</a></li>
+                <li>Bootstrap: <a href="https://getbootstrap.com/">Bootstrap.com</a></li>
+            </ul>
+            
+        </main>
+        
+        <footer>
+            <div class="card bg-dark h-15">
+                <div id="contact" class="card-header">You can contact me by clicking one of the links below:</div>
+                <div class="card-body">
+                    <p>Bello Olaseni:<a href="olasenibello38@gmail.com"> olasenibello38@gmail.com</a></p>
+                    <p>Mobile: <a href="tel:(905)519-5768">(905) 519-5768</a></p>
+                    <p>2022, Bello Olaseni, Mohawk College</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>

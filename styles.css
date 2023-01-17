@@ -1,0 +1,88 @@
+
+header{
+    text-align: center;
+    background-color: burlywood;
+}
+
+footer{
+    text-align: center;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: cadetblue;
+}
+
+li{
+    padding: 5px;
+}
+h5{
+    font-weight: bold;
+    color: black;
+}
+main p {
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: black;
+}
+nav a:hover{
+    color: chocolate;
+}
+
+ul li{
+    margin: 5px;
+}
+
+/* Animations for the header */
+
+header:hover{
+    animation-name: tremble;
+    animation-iteration-count: 10;
+    animation-duration: 100s;
+}
+@keyframes tremble{
+    0% {transform: translateX(10px); 
+        transform: translateY(-10px);
+        transform: rotateX(40deg);
+        transform: rotateY(30deg);
+        transform: rotateZ(5deg);
+    }
+    50% {transform: translateX(-20px);
+        transform: translateY(20px);
+        transform: rotateX(-80deg);
+        transform: rotateY(-60deg);
+        transform: rotateZ(-10deg);
+    }
+    100% {transform: translateX(10px);
+        transform: translateY(-10px);
+        transform: rotateX(40deg);
+        transform: rotateY(30deg);
+        transform: rotateZ(5deg);
+    }
+}
+
+header{
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+    50% {background-color: burlywood; color: white;}
+    100%{background-color: white; color: burlywood;}
+}
+
+.name{
+    animation-name: fontChange;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+@keyframes fontChange {
+    50% {font-size: larger; font-weight: bolder;}
+    100%{font-size: x-large; font-weight: bold;}
+    
+}
